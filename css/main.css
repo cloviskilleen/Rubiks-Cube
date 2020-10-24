@@ -1,0 +1,47 @@
+/* Cube Appearance */
+#cube {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+#cube > div {
+        height: 60px;
+        width: 106px;
+}
+
+#cube > .white, .orange, .green, .red, .yellow, .blue {
+    border-style: inset;
+}
+
+.empty {
+    background: #555555;
+}
+
+.white {
+    background: white;
+}
+
+.orange {
+    background: orange;
+}
+
+.green {
+    background: green;
+}
+
+.red {
+    background: red;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.blue {
+    background: blue;
+}
+
+/* Page Appearance */
+body {
+    background: #555555;
+}
